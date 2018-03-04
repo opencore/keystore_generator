@@ -1,0 +1,2 @@
+# Install role for keystore generation from Ansible Galaxy
+- src: opencore.keystores

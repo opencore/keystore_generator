@@ -1,0 +1,7 @@
+[run_host]
+localhost ansible_connection=local
+
+[servers]
+node1
+node2 san=ip:10.0.0.2,dns:node2.testcluster
+node3 san=ip:10.0.0.3
