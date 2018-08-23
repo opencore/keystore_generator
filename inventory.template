@@ -1,0 +1,27 @@
+[servers]
+node1
+node2 san=ip:10.0.0.2,dns:node2.testcluster
+node3 san=ip:10.0.0.3
+
+[run_host]
+localhost ansible_connection=local
+
+[run_host:vars]
+#CLIENT_CERTIFICATES='["user1", "user2"]'
+
+#CERTIFICATE_VALID_DAYS=365
+#KEY_VALID_DAYS=10000
+
+#SSL_STORE_PASSWORD=secret
+#SSL_KEY_PASSWORD=secret
+
+#FORCE_CA=false
+#FORCE_CERTS=false
+
+#O=OpenCore
+#C=DE
+#ST=SH
+#L=Wedel
+#OU=Internal
+
+#DOMAIN=OPENCORE.COM
